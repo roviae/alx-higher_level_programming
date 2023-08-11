@@ -10,8 +10,8 @@ if number < 0:
 else:
     lastdigit = number % 10
 if lastdigit > 5:
-    print(f"{str4}  {number} is {lastdigit} {str1}")
+    print(f"{}  {} is {} {}".format(str4, number, lastdigit, str1))
 elif lastdigit == 0:
-    print(f"{str4} {number} is {lastdigit} {str2}")
+    print(f"{} {} is {} {}".format(str4, number, lastdigit, str2))
 else:
-    print(f"{str4} {number} is {lastdigit} {str3}")
+    print(f"{} {} is {} {}".format(str4, number, lastdigit, str3))
