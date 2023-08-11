@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import os
+import py_compile
+import sys
+
+pyfile = os.environ.get('PYFILE')
+output_file = pyfile + 'c'
+py_compile.compile(pyfile, output_file)
+print("Compiling {} to {}.format(pyfile, output_file)")
